@@ -12,7 +12,7 @@ Template.hello.helpers({
   counter() {
 
     // TODO: fix build failure
-    // To make it build, remove 'cont b =' part
+    // To make it build, remove 'const b =' part
     if (globals.never) {
       const b = new Date();
     }
